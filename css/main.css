@@ -175,4 +175,12 @@ h2 {
     width: 98.5%;
     height: 5em; }
 
+footer {
+  background: #374249;
+  text-align: center;
+  color: white;
+  padding: .4em; }
+  footer span {
+    color: #f75311; }
+
 /*# sourceMappingURL=main.css.map */

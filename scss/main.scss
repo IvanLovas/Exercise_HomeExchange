@@ -231,3 +231,14 @@ h2 {
 
 	}
 }
+
+footer {
+	background: $darkBlue;
+	text-align: center;
+	color: white;
+	padding: .4em;
+
+	span {
+		color: $orange;
+	}
+}
