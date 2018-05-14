@@ -132,7 +132,7 @@ section {
       border: 1px solid #797979;
       color: #797979; }
 
-h2 {
+.head {
   text-transform: uppercase;
   margin-bottom: 2em;
   color: #374249; }
@@ -182,5 +182,25 @@ footer {
   padding: .4em; }
   footer span {
     color: #f75311; }
+
+@media screen and (max-width: 1200px) {
+  header {
+    padding: 20% 30%; }
+
+  .section1 .col {
+    width: 40%; }
+
+  .section2 table {
+    width: 100%; }
+
+  .section3 iframe {
+    display: block;
+    float: none;
+    margin: 0 auto; }
+  .section3 form {
+    display: block;
+    float: none;
+    margin: 2em auto;
+    width: 80%; } }
 
 /*# sourceMappingURL=main.css.map */

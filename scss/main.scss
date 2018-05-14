@@ -172,7 +172,7 @@ section {
 	}
 }
 
-h2 {
+.head {
 		text-transform: uppercase;
 		margin-bottom: 2em;
 		color: $darkBlue;
@@ -241,4 +241,40 @@ footer {
 	span {
 		color: $orange;
 	}
+}
+
+@media screen and (max-width: 1200px) {
+
+	header {
+		padding: 20% 30%;
+	}
+
+	.section1 {
+		.col {
+			width: 40%;
+		}
+	}
+
+	.section2 {
+		table {
+			width: 100%;
+		}
+	}
+
+	.section3 {
+
+		iframe {
+			display: block;
+			float: none;
+			margin: 0 auto;
+		}
+
+		form {
+			display: block;
+			float: none;
+			margin: 2em auto;
+			width: 80%;
+		}
+	}
+
 }
