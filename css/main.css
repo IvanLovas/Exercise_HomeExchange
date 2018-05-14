@@ -107,4 +107,33 @@ section {
         font-weight: normal;
         color: black; }
 
+.section2 {
+  text-align: center; }
+  .section2 h2 {
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    color: #374249; }
+  .section2 h3 {
+    font-weight: normal;
+    color: #374249;
+    margin-bottom: 2em;
+    color: #797979; }
+  .section2 table {
+    margin: 0 auto;
+    width: 70%;
+    border-collapse: collapse; }
+    .section2 table td {
+      padding: 6px 40px; }
+    .section2 table .orange {
+      background: #f75311;
+      color: white;
+      border: 1px solid #797979; }
+    .section2 table .grey {
+      background: #374249;
+      color: white;
+      border: 1px solid #797979; }
+    .section2 table .white {
+      border: 1px solid #797979;
+      color: #797979; }
+
 /*# sourceMappingURL=main.css.map */
