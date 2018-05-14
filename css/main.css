@@ -4,4 +4,37 @@
   font-family: "Roboto", sans-serif;
   box-sizing: border-box; }
 
+nav {
+  height: 5em; }
+  nav div {
+    width: 20%;
+    float: left;
+    background: #f75311;
+    padding: 1em;
+    height: 100%; }
+    nav div img {
+      float: left;
+      width: 20%; }
+    nav div span {
+      float: left;
+      font-size: 1.5em;
+      margin-top: .3em;
+      text-decoration: underline;
+      color: white; }
+  nav ul {
+    list-style: none;
+    float: left;
+    background: #374249;
+    width: 80%;
+    height: 100%; }
+    nav ul li {
+      display: inline-block;
+      width: 10%;
+      padding: 2em; }
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+        nav ul li a:hover {
+          text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */

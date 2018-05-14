@@ -2,3 +2,53 @@
 @import 'mixins';
 
 @include main;
+
+nav {
+	height: 5em;
+	div {
+		width: 20%;
+		float: left;
+		background: $orange;
+		padding: 1em;
+		height: 100%;
+
+		img {
+			float: left;
+			width: 20%;
+
+		}
+
+		span {
+			float: left;
+			font-size: 1.5em;
+			margin-top: .3em;
+			text-decoration: underline;
+			color: white;
+		}
+	}
+
+	ul {
+		list-style: none;
+		float: left;
+		background: $darkBlue;
+		width: 80%;
+		height: 100%;
+
+
+		li {
+			display: inline-block;
+			width: 10%;
+			padding: 2em;
+
+			a {
+				text-decoration: none;
+				color: white;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+	}
+}
