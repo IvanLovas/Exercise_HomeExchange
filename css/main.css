@@ -51,4 +51,18 @@ header {
   header h2 {
     font-size: 1.2em; }
 
+.buttons {
+  padding: 2.5em 20%;
+  text-align: right; }
+  .buttons .but {
+    padding: 1em 2em;
+    border: 1px solid #cfd1d3;
+    border-radius: 20%;
+    margin: 0 1em;
+    color: #cfd1d3;
+    text-decoration: none; }
+    .buttons .but:hover {
+      background: #cfd1d3;
+      color: white; }
+
 /*# sourceMappingURL=main.css.map */
