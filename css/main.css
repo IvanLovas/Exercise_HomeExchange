@@ -109,6 +109,8 @@ section {
 
 .section2 {
   text-align: center; }
+  .section2 .pricingButt {
+    display: none; }
   .section2 h3 {
     font-weight: normal;
     color: #374249;
@@ -202,5 +204,58 @@ footer {
     float: none;
     margin: 2em auto;
     width: 80%; } }
+@media screen and (max-width: 700px) {
+  nav div {
+    width: 100%;
+    display: block; }
+    nav div img {
+      width: 3em; }
+  nav ul {
+    width: 100%;
+    float: left;
+    display: block;
+    text-align: center; }
+    nav ul li {
+      width: 100%;
+      display: block;
+      height: 2em;
+      background: #374249; }
+
+  header {
+    background: none;
+    background-color: black;
+    height: 30em;
+    padding: 40% 10% 8%; }
+    header h1, header h2 {
+      background: none; }
+
+  .buttons {
+    padding-right: 10%;
+    padding-left: 10%; }
+
+  .section1 .col {
+    width: 100%; }
+    .section1 .col .info {
+      display: block; }
+
+  .section2 table {
+    display: none; }
+  .section2 .pricingButt {
+    display: block;
+    padding: 1em 2em;
+    border: 1px solid #cfd1d3;
+    border-radius: 20%;
+    color: #cfd1d3;
+    text-decoration: none;
+    width: 50%;
+    margin: 0 auto; }
+
+  .section3 form {
+    height: 14em; }
+    .section3 form .contactInput[type="text"], .section3 form select {
+      display: block;
+      width: 98.5%; }
+    .section3 form select {
+      margin-bottom: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
