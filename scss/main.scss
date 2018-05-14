@@ -75,11 +75,15 @@ header {
 
 }
 
+section {
+	padding: 2.5em 20%;
+}
+
 .buttons {
 
-	padding: 2.5em 20%;
-	text-align: right;
 	
+	text-align: right;
+
 	.but {
 		padding: 1em 2em;
 		border: 1px solid $lightHover;
@@ -94,4 +98,37 @@ header {
 		}
 	}
 }
+
+.section1 {
+	background: $lightBack;
+	@include clearfix;
+	.col {
+		float: left;
+		width: 20%;
+		height: 18em;
+		margin: 1em;
+		@for $i from 1 through 6 {
+		&.col#{$i} { 
+			background: url('../slike/#{$i}.jpg'); 
+			background-size: cover;	
+		}
+		}
+
+		&:hover .info{
+			display: block;
+		}
+
+		.info {
+			display: none;
+			background: rgba(255, 255, 255, 0.5);
+			padding-bottom: 2em;
+			h1, h2 {
+				font-weight: normal;
+				color: black;
+			}
+		}
+
+	}
+}
+
 

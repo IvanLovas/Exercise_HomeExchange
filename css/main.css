@@ -51,8 +51,10 @@ header {
   header h2 {
     font-size: 1.2em; }
 
+section {
+  padding: 2.5em 20%; }
+
 .buttons {
-  padding: 2.5em 20%;
   text-align: right; }
   .buttons .but {
     padding: 1em 2em;
@@ -64,5 +66,45 @@ header {
     .buttons .but:hover {
       background: #cfd1d3;
       color: white; }
+
+.section1 {
+  background: #f3f7f9; }
+  .section1:before, .section1:after {
+    content: "";
+    display: table; }
+  .section1:after {
+    clear: both; }
+  .section1 .col {
+    float: left;
+    width: 20%;
+    height: 18em;
+    margin: 1em; }
+    .section1 .col.col1 {
+      background: url("../slike/1.jpg");
+      background-size: cover; }
+    .section1 .col.col2 {
+      background: url("../slike/2.jpg");
+      background-size: cover; }
+    .section1 .col.col3 {
+      background: url("../slike/3.jpg");
+      background-size: cover; }
+    .section1 .col.col4 {
+      background: url("../slike/4.jpg");
+      background-size: cover; }
+    .section1 .col.col5 {
+      background: url("../slike/5.jpg");
+      background-size: cover; }
+    .section1 .col.col6 {
+      background: url("../slike/6.jpg");
+      background-size: cover; }
+    .section1 .col:hover .info {
+      display: block; }
+    .section1 .col .info {
+      display: none;
+      background: rgba(255, 255, 255, 0.5);
+      padding-bottom: 2em; }
+      .section1 .col .info h1, .section1 .col .info h2 {
+        font-weight: normal;
+        color: black; }
 
 /*# sourceMappingURL=main.css.map */
